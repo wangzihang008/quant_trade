@@ -2,6 +2,7 @@ class Strategy(StrategyBase):
 
     def initialize(self): # 初始化
         declare_strategy_type(AlgoStrategyType.SECURITY)
+        
         self.trigger_symbols()
         self.custom_indicator()
         self.global_variables()
